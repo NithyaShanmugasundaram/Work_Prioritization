@@ -87,8 +87,9 @@ background-color: var(--green);
 }
 .footer_text{
   font-style: normal; 
-    font-size: 15px;
+  font-size: 15px;
    color:var(--green);
+   padding:15px 20px;
 }
 .footer_name{
     font-style: normal;
@@ -96,7 +97,7 @@ background-color: var(--green);
     font-size: 20px;
     margin-bottom: 0;
     color:var(--green);
-    text-align: center;
+    
 }
     
 .row{
