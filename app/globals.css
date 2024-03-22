@@ -1,0 +1,17 @@
+/*  */
+
+
+:root {
+  --blue: #1877f2;
+  --white: #ffffff;
+  --green:#07bc0c;
+  --black:#121212;
+  --grey:#666;
+  --insta:#c32aa3;
+  
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

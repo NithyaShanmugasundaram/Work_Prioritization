@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent snapshot 1`] = `
+<nav
+  className="wrapperContainer navbar navbar-expand-lg navbar-light sticky-top"
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <div
+        className="navbrand"
+      >
+        Work Prioritization
+      </div>
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      id="toggle_icon"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        className="navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="navlink"
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          User Stories
+        </a>
+        <a
+          className="navlink"
+          href="/tasks"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          Tasks
+        </a>
+        <a
+          className="navlink"
+          href="/resource"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          Resource
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent snapshot 1`] = `
+<div
+  className="mt-10 text-center"
+>
+  <div
+    className="spinner-border text-success"
+  />
+  <p>
+    Hopefully not for to long :)
+  </p>
+</div>
+`;

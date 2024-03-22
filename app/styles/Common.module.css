@@ -1,0 +1,131 @@
+
+/* Resource */
+.resource_table{
+  margin-top: 20px;
+}
+.task_input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.task_input:focus {
+  border: 3px solid #555;
+}
+.delete_btn{
+
+  border:none;
+  background-color: var(--white);
+  color:var(--green)
+}
+.delete_btn:hover{
+  border:none;
+  border:1px solid var(--green);
+  background-color: var(--green);
+}
+.formComponent{
+  display: flex;
+}
+
+/* header */
+.wrapperContainer{
+  background-color: var(--black);
+  
+  margin-top:0px;
+}
+.navbrand{
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  color:var(--green);
+ 
+}
+@media only screen and (max-width: 600px) {
+  .navbrand {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  
+}
+.navlink{
+  display: inline-block;
+    color: var(--green);
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #36454F;
+    border-radius: 10px;
+    margin: 15px;
+  
+}
+.navlink:hover{
+  background-color: var(--green);
+  color:var(--black)
+}
+#toggle_icon{
+background-color: var(--green);
+  
+}
+.title{
+  text-align:center;
+  color:var(--green);
+  margin-top: 10px;
+}
+
+/* footer */
+
+.footerContainer{
+  background-color: var(--black);
+  margin-top:auto;
+}
+.footer_text{
+  font-style: normal; 
+    font-size: 15px;
+   color:var(--green);
+}
+.footer_name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color:var(--green);
+    text-align: center;
+}
+    
+.row{
+  justify-content: center;
+  align-items:center;
+  padding:10px;
+}
+.btn_fb{
+  background-color:var(--blue);
+  border:var(--blue);
+}
+.btn_fb:hover{
+  background-color:var(--blue);
+  border:var(--blue);
+}
+.btn_twitter{
+  background-color:var(--black);
+  border:var(--black);
+ 
+}
+.btn_twitter:hover{
+  background-color:var(--black);
+  border:var(--black);
+}
+.btn_Insta{
+  background-color:var(--insta);
+  border:var(--insta);
+}
+.btn_Insta:hover{
+  background-color:var(--insta);
+  border:var(--insta);
+}
